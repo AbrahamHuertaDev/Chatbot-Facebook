@@ -1,0 +1,17 @@
+{
+  "name": "my-app-chat-fb",
+  "version": "1.0.0",
+  "description": "initialitation with Facebook's Massenger API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emerson Javid Gonzalez Morales",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "ngrok": "^2.2.22"
+  }
+}
