@@ -1,0 +1,12 @@
+---
+applications:
+- name: my-app-chat-fb
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  env:
+    NPM_CONFIG_PRODUCTION: false
+    DEFAULT_SESSION_TIMEOUT: 300
+    # Token de identificación del controlador de facebook, se utiliza para autenticar en el controlador del bot
+    FB_CTR_ID_TOKEN: ''
